@@ -18,7 +18,7 @@ const App = () => {
 
   return (
 
-    <Router>
+    <Router basename = "/portfolio-website">
       <div className="App">
 
           <Navbar />
@@ -29,13 +29,13 @@ const App = () => {
         <Route exact path="/portfolio-website/projects">
             <Projects />
         </Route>
-        <Route exact path = "/portfolio-website/projects/supperwhere">
+        <Route exact path = "/projects/supperwhere">
             <Supperwhere />
         </Route>
-        <Route exact path = "/portfolio-website/projects/big-o-bot">
+        <Route exact path = "/projects/big-o-bot">
             <BigOBot />
         </Route>
-        <Route exact path = "/portfolio-website/projects/a-certain-daily-journal">
+        <Route exact path = "/projects/a-certain-daily-journal">
             <Journal />
         </Route>
 

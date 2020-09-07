@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 //import { motion } from 'framer-motion';
 //import ThumbnailButton from './ThumbnailButton.js';
 import './App.css';
-//import './Thumbnail.css';
+import './Thumbnail.css';
 import './styles.css'
  
 const Thumbnail = (props) => {

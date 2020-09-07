@@ -12,12 +12,8 @@ const About = (props) => {
 			<h2 className = "masthead-heading mb-1">Omar Morhbi</h2>
 			<div id = "bio">
 				<p className = "pre-wrap">Hello there! I am Omar Morhbi. Born and raised in Brooklyn, I'm a passionate Software Engineer, graduating from NYU in Computer Science earlier this year.
-				My areas of interest and profiency lies in Full Stack Web Development and Data Analysis.
+				My areas of interest and profiency lie in Full Stack Web Development and Data Analysis.
 				I'm looking to join a team of equally passionate and skilled programmers to make amazing products.</p>
-			</div>
-
-			<div className = "text-center">
-				<h2 class="page-section-heading d-inline-block mb-4 mt-3">Contact Me</h2>
 			</div>
 
 			<div className = "row-supperwhere justify-content-center">

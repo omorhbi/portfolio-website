@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 //import 'bootstrap/dist/css/bootstrap-theme.css';
 
 ReactDOM.render(
-  <App />,
+	<Router basename = {process.env.PUBLIC_URL}>
+  	<App />
+  	</Router>,
   document.getElementById('root')
 );
 

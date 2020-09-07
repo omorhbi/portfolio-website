@@ -968,6 +968,7 @@ a.image-close:after{
   display: inline-block;
   align-content: center;
   width: 50%;
+  margin-bottom: 10px;
 }
 @media (min-width: 1200px){
   .container-bio {

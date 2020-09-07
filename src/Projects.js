@@ -1,6 +1,6 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
-import './App.css';
+//import './App.css';
 import Logo from './images/mini-icon.png';
 import Journal_Logo from './images/journal_icon.png';
 import BigOLogo from './images/Big_O.png';
