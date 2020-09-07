@@ -829,7 +829,7 @@ a.imagebox img {
   transition: 0.3s;
 }
 
-.image-target: target img {
+.image-target:target img {
   max-height: 100%;
   max-width:  100%;
 }
