@@ -834,7 +834,7 @@ a.imagebox img {
   max-width:  100%;
 }
 
-.image-target: target a.image-close {
+.image-target:target a.image-close {
   top: 0px;
 }
 
