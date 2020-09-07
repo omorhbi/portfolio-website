@@ -23,19 +23,19 @@ const App = () => {
 
           <Navbar />
         
-        <Route path="/" exact>
+        <Route path="/portfolio-website" exact>
             <About />
         </Route>
-        <Route exact path="/projects">
+        <Route exact path="/portfolio-website/projects">
             <Projects />
         </Route>
-        <Route exact path = "/projects/supperwhere">
+        <Route exact path = "/portfolio-website/projects/supperwhere">
             <Supperwhere />
         </Route>
-        <Route exact path = "/projects/big-o-bot">
+        <Route exact path = "/portfolio-website/projects/big-o-bot">
             <BigOBot />
         </Route>
-        <Route exact path = "/projects/a-certain-daily-journal">
+        <Route exact path = "/portfolio-website/projects/a-certain-daily-journal">
             <Journal />
         </Route>
 

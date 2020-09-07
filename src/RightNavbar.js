@@ -95,8 +95,8 @@ const RightNavbar = ({ open }) => {
 		<Ul open = {open}>
 			<li><img className ="nav-image mb-1" src = {Picture} /></li>
 			<li><a href = {Resume} target = "_blank">Resume</a></li>
-			<li><Link to = '/projects'>Projects</Link></li>
-			<li><Link to = '/'>About Me</Link></li>
+			<li><Link to = '/portfolio-website/projects'>Projects</Link></li>
+			<li><Link to = '/portfolio-website'>About Me</Link></li>
 			<li className = "contact_me">Contact Me:</li>
 			<li className = "icon-left"><a href = "http://github.com/omorhbi" target = "_blank">
 				<div className = "icon-contact mb-3">
