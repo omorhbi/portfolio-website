@@ -18,12 +18,12 @@ const App = () => {
 
   return (
 
-    <Router basename = "/portfolio-website">
+    <Router>
       <div className="App">
 
           <Navbar />
         
-        <Route path="/portfolio-website" exact>
+        <Route path="/portfolio-website/" exact>
             <About />
         </Route>
         <Route exact path="/portfolio-website/projects">
