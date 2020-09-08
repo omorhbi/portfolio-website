@@ -13,20 +13,20 @@ const Projects = (props) => {
     <div className = 'projects-container'>
 
       <Thumbnail
-        link = '/projects/supperwhere'
+        link = '/supperwhere'
         image= { Logo }
         title = "Supperwhere"
         description = "A fullstack website built with MERN. This app recommends restaurants to users based on location and their preferences."
       />
 
       <Thumbnail
-        link= '/projects/a-certain-daily-journal'
+        link= '/a-certain-daily-journal'
         image= { Journal_Logo }
         title = "A Certain Daily Journal"
         description = "A journal sharing website built with Node.js, Express.js, MongoDB, and handlebars.js."
       />
       <Thumbnail
-        link = '/projects/big-o-bot'
+        link = '/big-o-bot'
         image = { BigOLogo }
         title = "Big O Bot"
         description = "A fun twitter bot that alters phrases. Built in python with its NLP library."

@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { HashRouter as Router, Link, Route } from "react-router-dom";
 //import { Navbar } from 'react-bootstrap';
 import Navbar from './Navbar';
 import About from './About';
@@ -18,27 +18,26 @@ const App = () => {
 
   return (
 
-    <Router>
+    <Router basename = "/">
       <div className="App">
 
-          <Navbar />
+        <Navbar />
         
-        <Route path="/portfolio-website/" exact>
+        <Route exact path="/">
             <About />
         </Route>
-        <Route exact path="/portfolio-website/projects">
+        <Route path="/projects">
             <Projects />
         </Route>
-        <Route exact path = "/projects/supperwhere">
+        <Route exact path = "/supperwhere">
             <Supperwhere />
         </Route>
-        <Route exact path = "/projects/big-o-bot">
-            <BigOBot />
-        </Route>
-        <Route exact path = "/projects/a-certain-daily-journal">
+        <Route exact path = "/a-certain-daily-journal">
             <Journal />
         </Route>
-
+        <Route exact path = "/big-o-bot">
+            <BigOBot />
+        </Route>
       </div>
     </Router>
   );
