@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bce9b64d524fbac1300184a0a39e70df",
+    "revision": "ac71aca32f92d021b017754142e3a142",
     "url": "/portfolio-website/index.html"
   },
   {
-    "revision": "b2181167b5badd5ce823",
+    "revision": "8d2f0d56df2dec0a9d36",
     "url": "/portfolio-website/static/css/2.41aa33e5.chunk.css"
   },
   {
-    "revision": "22e7876da1d886ae34ea",
-    "url": "/portfolio-website/static/css/main.6a4b3be2.chunk.css"
+    "revision": "6bc17982b14ac9bdb62b",
+    "url": "/portfolio-website/static/css/main.0b1bdcc6.chunk.css"
   },
   {
-    "revision": "b2181167b5badd5ce823",
-    "url": "/portfolio-website/static/js/2.b9cf60e5.chunk.js"
+    "revision": "8d2f0d56df2dec0a9d36",
+    "url": "/portfolio-website/static/js/2.89c4557a.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/portfolio-website/static/js/2.b9cf60e5.chunk.js.LICENSE.txt"
+    "url": "/portfolio-website/static/js/2.89c4557a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22e7876da1d886ae34ea",
-    "url": "/portfolio-website/static/js/main.7a351b40.chunk.js"
+    "revision": "6bc17982b14ac9bdb62b",
+    "url": "/portfolio-website/static/js/main.54a748ec.chunk.js"
   },
   {
     "revision": "a77bb18274229563e654",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/Omar_Morhbi_Resume.fb87a988.pdf"
   },
   {
-    "revision": "a1bba50d7cf5d9acac85d2da18a0260c",
-    "url": "/portfolio-website/static/media/journal_icon.a1bba50d.png"
+    "revision": "efea418d0b21e5a34d0900b3058acfb5",
+    "url": "/portfolio-website/static/media/journal_icon.efea418d.png"
   },
   {
     "revision": "9b32ed05f8eaf420449a5c4ba52d1cd3",
