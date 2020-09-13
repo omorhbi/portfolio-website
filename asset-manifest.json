@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.13d3cf95.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.1c1a8181.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.1c1a8181.chunk.js.map",
+    "main.js": "/portfolio-website/static/js/main.ecba3dd0.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.ecba3dd0.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.5816c056.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.5816c056.js.map",
     "static/css/2.41aa33e5.chunk.css": "/portfolio-website/static/css/2.41aa33e5.chunk.css",
     "static/js/2.9616a8e0.chunk.js": "/portfolio-website/static/js/2.9616a8e0.chunk.js",
     "static/js/2.9616a8e0.chunk.js.map": "/portfolio-website/static/js/2.9616a8e0.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "precache-manifest.187a466dae7d7810668cb0c77e7b2890.js": "/portfolio-website/precache-manifest.187a466dae7d7810668cb0c77e7b2890.js",
+    "precache-manifest.0d80e09eb0b4903dc478d2faf8d12136.js": "/portfolio-website/precache-manifest.0d80e09eb0b4903dc478d2faf8d12136.js",
     "service-worker.js": "/portfolio-website/service-worker.js",
     "static/css/2.41aa33e5.chunk.css.map": "/portfolio-website/static/css/2.41aa33e5.chunk.css.map",
     "static/css/main.13d3cf95.chunk.css.map": "/portfolio-website/static/css/main.13d3cf95.chunk.css.map",
@@ -20,7 +20,7 @@
     "static/media/Journal_Login.PNG": "/portfolio-website/static/media/Journal_Login.30522da3.PNG",
     "static/media/Make_Journal.PNG": "/portfolio-website/static/media/Make_Journal.106eb2f2.PNG",
     "static/media/MyJournals.PNG": "/portfolio-website/static/media/MyJournals.309b304a.PNG",
-    "static/media/Omar_Morhbi_Resume.pdf": "/portfolio-website/static/media/Omar_Morhbi_Resume.2624b714.pdf",
+    "static/media/Omar_Morhbi_Resume.pdf": "/portfolio-website/static/media/Omar_Morhbi_Resume.623fe2c0.pdf",
     "static/media/journal_icon.png": "/portfolio-website/static/media/journal_icon.efea418d.png",
     "static/media/login_page.PNG": "/portfolio-website/static/media/login_page.9b32ed05.PNG",
     "static/media/logo.svg": "/portfolio-website/static/media/logo.5d5d9eef.svg",
@@ -40,6 +40,6 @@
     "static/css/2.41aa33e5.chunk.css",
     "static/js/2.9616a8e0.chunk.js",
     "static/css/main.13d3cf95.chunk.css",
-    "static/js/main.1c1a8181.chunk.js"
+    "static/js/main.ecba3dd0.chunk.js"
   ]
 }
