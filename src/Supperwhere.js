@@ -28,7 +28,7 @@ const Supperwhere = () => {
 				<div className = "">
 
 					<p className = "pre-wrap lead">
-						Supperwhere is a web application designed to help indecisive users figure out what they wannt to eat by 
+						Supperwhere is a web application designed to help indecisive users figure out what they want to eat by 
 						recommending restaurants based on their dietary and cost preferences, and meal history. Through this, Supperwhere 
 						allows the user to overcome their indecisiveness, making the dining experience quicker and more enjoyable.
 					</p>
@@ -61,7 +61,7 @@ const Supperwhere = () => {
 	           			</Carousel>
 	           		</div>
 					<div className = "links">
-						<a href = "http://157.245.94.160:3000" target = "_blank">
+						<a href = "http://supperwhere.herokuapp.com" target = "_blank">
 							<button className = "linkBtn">Go to Site</button>
 						</a>
 						<a href = "http://github.com/omorhbi/spring-2020-crystal-balboa" target = "_blank">
@@ -89,7 +89,7 @@ const Supperwhere = () => {
 						<br />
 						Additionally, Supperwhere provides a validator through the use of
 						@hapi/joi, a module that checks if the user provided a username upon registration or login and if the password is longer than 6 
-						characters. Lastly, through the use of MongoDB, each user will have to have a unique username when signing up to the site.
+						characters. Lastly, through the use of MongoDB, each user will need to have a unique username when signing up to the site.
 					</p>
 
 					<Dialog

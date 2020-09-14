@@ -69,7 +69,7 @@ const Journal = () => {
 				<p className = "pre-wrap lead">
 					The site's user authentication was done through passport.js. So if a user wanted to access the link to make or view
 					their own journals, they would get redirected to the login and register page.
-					Additionally, the site provides users a form validation through the use of Just-validate.js. With this, users can get
+					Additionally, the site provides users with a form validator through the use of Just-validate.js. With this, users can get
 					a visual response from a modal telling the user if the form was sent successfully.
 				</p>
 

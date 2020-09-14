@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "SB Body", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -55,17 +55,30 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "SB Body", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #F5F5F5;
 }
+
+
+/*-webkit-scrollbar {
+  display: none;
+}*/
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
+}
+
+*{
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 hr {
@@ -99,7 +112,8 @@ li {
   text-decoration: none;
   font-size: 1.8rem;
   padding-top: 25px;
-  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   float: left;
   width: 100%;
   overflow: auto;
@@ -107,7 +121,7 @@ li {
 
 @media (max-width: 768px){
   .project-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     overflow: visible;
   }
@@ -198,8 +212,9 @@ sup {
 
 a {
   color: black !important;
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: transparent;
+  transition: .3s ease;
 }
 a:hover {
   color: #06090d;
@@ -400,7 +415,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "SB Heading", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Verdana Heading", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -514,9 +529,15 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: 100%;
+  max-width: 100% !important;
+  height: 200px !important;
   width: auto;
+  transition: .3s ease;
+}
+
+.img-fluid:hover {
+  
+  opacity: 0.5;
 }
 
 @media (max-width: 768px){
@@ -583,6 +604,7 @@ pre code {
   word-break: normal;
 }
 
+
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -594,9 +616,17 @@ pre code {
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
-  overflow: hidden;
+  overflow: auto;
 }
 
+.journal-container {
+    position: absolute;
+    height: 1000px;
+    left: 0;
+  
+    right: -20px; 
+    overflow: scroll;
+}
 .navbar-container {
   width: 100%;
   padding-right: 1.5rem;
@@ -605,6 +635,15 @@ pre code {
   margin-left: auto;
   overflow: hidden;
   font-size: 2rem ;
+}
+
+.home-link {
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+
+.home-link:hover{
+  opacity: 0.6;
 }
 
 .supperwhere-container {
@@ -629,10 +668,14 @@ pre code {
     display: none;
   }
 }
+
+.about-container {
+  width: 100%;
+  height: 100vh !important;
+}
+
 @media (min-width: 1200px) {
   .about-container {
-    width: 100%;
-    height: auto;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     margin-right: auto;
@@ -648,6 +691,20 @@ pre code {
   box-shadow: 1px 1px 3px 3px rgba(0,0,0,.3);
 }
 
+@media (max-width: 728px){
+  .about-image {
+    width: 250px;
+    height: 250px;
+    margin-top: 85px;
+  }
+}
+
+@media (min-width: 729px) and (max-width: 1208px){
+  .about-image {
+    margin-top: 85px;
+  }
+}
+
 .nav-image {
   border-radius: 50%;
   width: 60%;
@@ -661,7 +718,7 @@ pre code {
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 4rem;
+  padding-top: 6rem;
   display: flex;
   height: 100%;
 }
@@ -669,6 +726,13 @@ pre code {
 @media (max-width: 768px){
   .projects-container {
     display: block;
+
+  }
+}
+
+@media (min-width: 769px){
+  .projects-container {
+    margin-top: 55px;
   }
 }
 
@@ -740,6 +804,7 @@ a.imagebox img {
   }
 }
 
+
 .image:hover {
   opacity: 0.7;
 }
@@ -767,6 +832,7 @@ a.imagebox img {
 
 @media (max-width: 768px){
   .links {
+    display: inline-block;
     margin-bottom: 10px;
   }
 }
@@ -786,6 +852,17 @@ a.imagebox img {
   outline: none;
   font-family: system-ui;
   margin: 0px 20px 0px 20px;
+  transition: .3s ease;
+}
+
+.linkBtn:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 728px){
+  .linkBtn {
+    margin-bottom: 20px;
+  }
 }
 
 .dialog {
@@ -970,6 +1047,12 @@ a.image-close:after{
   width: 50%;
   margin-bottom: 10px;
 }
+
+@media (max-width: 728px){
+  #bio {
+    width: 75%;
+  }
+}
 @media (min-width: 1200px){
   .container-bio {
     max-width: 1000px;
@@ -1048,11 +1131,16 @@ a.image-close:after{
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -1.5rem;
-  margin-left: -1.5rem;
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
   width: 50%;
   text-align: center;
-  
+}
+
+@media (min-width: 769px){
+  .row{
+    height: 75%;
+  }
 }
 
 @media (max-width: 768px){
@@ -1065,13 +1153,14 @@ a.image-close:after{
     box-shadow: 1px 1px 3px 3px #d3d3d3;
     border-radius: 1px;
     overflow: visible;
+    background-color: white;
   }
 }
 
 .contact-info {
   display: inline-block;
   font-weight: bolder;
-  font-size: 1.15rem;
+  font-size: 0.95rem;
 }
 
 .project-description {
@@ -1084,25 +1173,23 @@ a.image-close:after{
 @media (max-width: 768px){
   .project-description {}
 }
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .row-supperwhere{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 16.5% !important;
+    margin-left: 16.5% !important;
   }
 }
 
-@media (max-width: 992px){
-  .row-supperwhere{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: center;
-
+@media (min-width: 729px) and (max-width: 992px){
+  .row-supperwhere {
+    margin-right: 10% !important;
+    margin-left: 10% !important;
   }
 }
+
 /*.row:hover .img-description {
   visibility: visible;
   opacity: 1;
@@ -1141,6 +1228,8 @@ a.image-close:after{
     width: 60% !important;
   }
 }
+
+
 
 .col {
   flex-basis: 0;
@@ -1644,6 +1733,13 @@ a.image-close:after{
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
   }
+
+  @media (max-width: 990px) and (min-width: 769px){
+  .col-md-7{
+    display: inline-block !important;
+    width: 50% !important;
+  }
+}
 
   .col-md-8 {
     flex: 0 0 66.6666666667%;
@@ -10423,6 +10519,10 @@ h3 {
 }
 .page-section {
   padding: 6rem 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10441,6 +10541,12 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 728px){
+  .divider-custom {
+    margin: 0.75rem;
+  }
 }
 .divider-custom .divider-custom-line {
   width: 100%;
@@ -10741,7 +10847,19 @@ form .row:first-child .floating-label-form-group {
   background-color: #1f2d41;
   color: #fff;
   border-radius: 100%;
+  transition: .3s ease;
+}
 
+.icon-contact:hover {
+  opacity: .7;
+}
+
+
+@media (max-width: 728px){ 
+  .icon-contact {
+    height: 4.7rem;
+    width:  4.7rem;
+  }
 }
 
 .navbar-brand img {

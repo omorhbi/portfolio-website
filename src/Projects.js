@@ -8,15 +8,14 @@ import './styles.css'
 const Projects = (props) => {
   return (
     // Render a Thumbnail component
-  <div>
-    <h1 className = "page-section-heading-projects mb-0 d-inline-block">Projects</h1>
-    <div className = 'projects-container'>
+  <div className = 'about-container bg'>
+    <div className = 'projects-container bg'>
 
       <Thumbnail
         link = '/supperwhere'
         image= { Logo }
         title = "Supperwhere"
-        description = "A fullstack website built with MERN. This app recommends restaurants to users based on location and their preferences."
+        description = "A fullstack website built with MERN. This app recommends restaurants to users based on their location and preferences."
       />
 
       <Thumbnail

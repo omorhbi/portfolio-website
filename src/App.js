@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import { HashRouter as Router, Link, Route } from "react-router-dom";
 //import { Navbar } from 'react-bootstrap';
 import Navbar from './Navbar';
@@ -11,6 +11,7 @@ import logo from './logo.svg';
 import Resume from './Omar_Morhbi_Resume.pdf';
 import { faBars } from '@fortawesome/free-solid-svg-icons'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import './styles.css';
 
 
