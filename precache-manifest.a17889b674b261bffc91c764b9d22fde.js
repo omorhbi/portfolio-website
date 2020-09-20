@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "879f8d8c5137a797a697a88ffbc55f6f",
+    "revision": "81d7ba2cfa3562ffb0b4a5df792a5dc7",
     "url": "/portfolio-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/css/2.41aa33e5.chunk.css"
   },
   {
-    "revision": "e6f70a835c091127d2eb",
+    "revision": "0d34aa9f754f56f2b4c0",
     "url": "/portfolio-website/static/css/main.4e5c4490.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/js/2.c7391354.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e6f70a835c091127d2eb",
-    "url": "/portfolio-website/static/js/main.65661e50.chunk.js"
+    "revision": "0d34aa9f754f56f2b4c0",
+    "url": "/portfolio-website/static/js/main.13a15ad2.chunk.js"
   },
   {
     "revision": "a77bb18274229563e654",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/MyJournals.309b304a.PNG"
   },
   {
-    "revision": "b6bab58d3b42bdd1f017c839a52d8978",
-    "url": "/portfolio-website/static/media/Omar_Morhbi_Resume.b6bab58d.pdf"
+    "revision": "34b32cad1665cc8c5a8f2f7d85ecdc0a",
+    "url": "/portfolio-website/static/media/Omar_Morhbi_Resume.34b32cad.pdf"
   },
   {
     "revision": "efea418d0b21e5a34d0900b3058acfb5",
