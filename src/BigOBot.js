@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Profile from './images/Big_O_Bot_Profile.PNG';
-import Tweets from './images/Big_O_Bot_Tweets.PNG';
+import Tweets from './images/Big_O_Bot_Tweet.PNG';
 import Dialog from './Dialog';
 import './styles.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -19,10 +19,9 @@ const BigOBot = () => {
 
 				<div>
 					<p className = "pre-wrap lead">
-						The Big O Bot is a Twitter bot that creates and sends tweets every 4-6 hours.
-						The bot is also able to take a valid user inputted noun, reproduce that message, and reply back
-						to the original sender. Each tweet and reply has the bot appending "#Big" to the beginning of a noun.
-						
+						The Big O Bot is a Twitter bot that creates and sends tweets every couple of hours. Each tweet takes a verb or noun that has o's in it and capitalizes them
+						The bot is also able to take a valid user inputted noun or verb, reproduce that message, and reply back
+						to the original sender with "Big" prepended to the beginning of the noun or verb. 
 					</p>
 					<p className = "pre-wrap lead">
 						The Big O Bot was developed in Python 3.7, using the Tweepy library to interact with the

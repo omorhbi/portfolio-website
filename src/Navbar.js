@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import RightNavbar from './RightNavbar';
+//import RightNavbar from './RightNavbar';
 import styled from 'styled-components';
 import Burger from './Burger';
 import './styles.css';
