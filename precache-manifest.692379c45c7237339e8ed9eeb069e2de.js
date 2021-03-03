@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d7ea2d2773ce3e70443dd0f744fde09",
+    "revision": "af102acdd5274c5c7faf19498c90be84",
     "url": "/portfolio-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/css/2.41aa33e5.chunk.css"
   },
   {
-    "revision": "22c89d28dee4ee4e69a6",
-    "url": "/portfolio-website/static/css/main.08ffecd2.chunk.css"
+    "revision": "59277eac6a412a435bb0",
+    "url": "/portfolio-website/static/css/main.83ea2eef.chunk.css"
   },
   {
     "revision": "d81c1e80a765a18ca05a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/js/2.c7391354.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22c89d28dee4ee4e69a6",
-    "url": "/portfolio-website/static/js/main.52a7d6a4.chunk.js"
+    "revision": "59277eac6a412a435bb0",
+    "url": "/portfolio-website/static/js/main.165c4358.chunk.js"
   },
   {
     "revision": "a77bb18274229563e654",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/MyJournals.309b304a.PNG"
   },
   {
-    "revision": "264898425e8622a62c7cbf3902e16ce8",
-    "url": "/portfolio-website/static/media/Omar_Morhbi_Resume.26489842.pdf"
+    "revision": "3c3e69efc5ef5cc182ff8a5ae1a0f122",
+    "url": "/portfolio-website/static/media/Omar_Morhbi_Resume.3c3e69ef.pdf"
   },
   {
     "revision": "efea418d0b21e5a34d0900b3058acfb5",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-website/static/media/login_page.9b32ed05.PNG"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/portfolio-website/static/media/logo.5d5d9eef.svg"
+    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
+    "url": "/portfolio-website/static/media/logo.ee7cd8ed.svg"
   },
   {
     "revision": "9f2aabd34d9b67284daa0762f39951f3",
