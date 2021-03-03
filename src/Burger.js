@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styled from 'styled-components';
-import Resume from './Omar_Morhbi_Resume.pdf';
+import Resume from './Omar Morhbi Resume.pdf';
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
